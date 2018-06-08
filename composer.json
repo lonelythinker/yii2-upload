@@ -1,0 +1,35 @@
+{
+    "name": "lonelythinker/yii2-upload",
+    "description": "Yii2 upload extension",
+    "keywords": ["lonelythinker", "yii2", "extension", "upload", "plugin"],
+    "homepage": "https://github.com/lonelythinker/yii2-upload",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "lonelythinker",
+            "email": "710366112@qq.com",
+            "homepage": "http://www.lonelythinker.cn/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-imagine": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "lonelythinker\\yii2\\upload\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
