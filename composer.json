@@ -4,7 +4,7 @@
     "keywords": ["lonelythinker", "yii2", "extension", "upload", "plugin"],
     "homepage": "https://github.com/lonelythinker/yii2-upload",
     "type": "yii2-extension",
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-Clause",
     "version": "0.0.1",
     "authors": [
         {
